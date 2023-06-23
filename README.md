@@ -33,13 +33,19 @@ Resources:
 
 ## Demonstration
 
-To use this app, you must build dts in server file, then continue writing in client.
+To use this app, you must build dts in server file, then continue developing in client.
+
+1. try to change something in server
+2. Do this to build only the dts
 
 ```bash
 cd server
 pnpm build:dts
 pnpm serve
 ```
+
+3. try to continue developing in client
+4. do this to see if it is working
 
 ```bash
 cd client
