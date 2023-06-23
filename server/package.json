@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "serve": "npx tsx index.ts",
-    "build:dts": "tsc"
+    "build": "tsc",
+    "build:src": "tsc --declaration false",
+    "build:dts": "tsc --emitDeclarationOnly true"
   },
   "keywords": [],
   "author": "",
