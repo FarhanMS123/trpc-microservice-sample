@@ -8,7 +8,20 @@ const User = z.object({
 });
 type User = z.infer<typeof User>;
 
-const users: User[] = [];
+const users: User[] = [
+  {
+    id: "fina123",
+    name: "Fina Cayank Kamoeh",
+  },
+  {
+    id: "crlf777",
+    name: "Bank Heker C3l4lu Centozah"
+  },
+  {
+    id: "felis",
+    name: "Felis Cato"
+  },
+];
 
 // https://trpc.io/docs/quickstart#defining-a-backend-router
 const appRouter = router({
